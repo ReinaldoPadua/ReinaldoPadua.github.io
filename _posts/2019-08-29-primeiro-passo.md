@@ -13,5 +13,5 @@ com desenvolvimento de software e tecnologias no geral.
 
 No momento em que escrevo, estou trabalhando na Compasso Sistemas (compasso.com.br)
 como programador nível pleno, pretendo alcançar o nível sênior até meados do ano que vem (2020).
-Além disso, estou estudando para a certificação Java SE 8 Programmer I (1Z0-808) e tentando retomar e finalizar a graduação de Sistemas de Informação que iniciei lá
+Além disso, estou estudando para a certificação Java SE 8 Programmer I (1Z0-808) e tentando retomar e finalizar a graduação em Sistemas de Informação que iniciei lá
 por 2009, mas que por diversos motivos tive que interromper.
