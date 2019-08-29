@@ -1,6 +1,6 @@
 ---
-title: 'About'
-permalink: '/about/'
+title: 'Contato'
+permalink: '/contato/'
 ---
 
-## contato <reinaldo.padua@unoesc.edu.br>
+## <reinaldo.padua@unoesc.edu.br>
