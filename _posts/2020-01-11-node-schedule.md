@@ -34,6 +34,6 @@ schedule.scheduleJob('42 * * * *', (){
 });
 ```
 
-A implementação na prática pode ser vista no projeot [node-schedule-jobs](https://github.com/ReinaldoPadua/node-schedule-jobs).
+A implementação na prática pode ser vista no projeto [node-schedule-jobs](https://github.com/ReinaldoPadua/node-schedule-jobs).
 
 Até a próxima.
