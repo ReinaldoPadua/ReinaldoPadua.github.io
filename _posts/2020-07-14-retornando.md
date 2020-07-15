@@ -2,7 +2,7 @@
 title: 'Retornando...'
 ---
 
-Faz um tempo que não escrevo, muita coisa aconteceu desde o ultimo [post](https://github.com/node-schedule/node-schedule) publicado em janeiro.
+Faz um tempo que não escrevo, muita coisa aconteceu desde o ultimo [post](https://reinaldopadua.github.io/node-schedule/) publicado em janeiro.
 
 Profissionalmente, continuo trabalhando na Compasso (atualmente [Compasso UOL](http://compasso.ninja)),
 pórem, com novas atribuições. A um pouco mais de 6 meses atuo como "squad leader" ou "team leader", função que especificamente no projeto em que atuou, mescla atividades de arquitetura de sistemas, gerenciamento de projetos e liderança ténica (sim, é muita coisa para aprender em áreas bem distintas).

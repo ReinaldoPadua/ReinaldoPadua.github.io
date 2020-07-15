@@ -2,15 +2,15 @@
 title: 'Integrando o NestJS com AWS Cognito'
 ---
 
-Faz um tempo que não escrevo, muita coisa aconteceu desde o ultimo [post](https://github.com/node-schedule/node-schedule) publicado em janeiro.
+Faz um tempo que não escrevo, muita coisa aconteceu desde o ultimo [post](https://github.com/node-schedule/node-schedule){:target="_blank"} publicado em janeiro.
 
-Profissionalmente, continuo trabalho na Compasso (agora [Compasso UOL](http://compasso.ninja/))
+Profissionalmente, continuo trabalho na Compasso (agora [Compasso UOL](http://compasso.ninja/){:target="_blank"})
 
 Em um projeto particular que tenho trabalhado com framework express, um recurso
 que eu precisei desenvolver foi a chamada periodica de uma determinada api. Essa
 api deveria ser chamada multiplas vezes, em periodos distintos, com parametros diferentes.
 
-Dada a complexidade, usar um agendador de tarefas como o crontab demandaria de muito esforço, em função disso optei por usar a lib [node-schedule](https://github.com/node-schedule/node-schedule).
+Dada a complexidade, usar um agendador de tarefas como o crontab demandaria de muito esforço, em função disso optei por usar a lib [node-schedule](https://github.com/node-schedule/node-schedule){:target="_blank"}.
 
 Seu uso é demasiadamente simples, bastando executar a instalação via npm install, e após e importar a lib via require. A definição de peridiocidade vai ser bem semelhamente a configuração
 da crontab de sistemas Linux, seguindo padrão de configuração segundo - minuto- hora- dia do mês - mês - dia da semana.
@@ -38,6 +38,6 @@ schedule.scheduleJob('42 * * * *', (){
 });
 ```
 
-A implementação na prática pode ser vista no projeto [node-schedule-jobs](https://github.com/ReinaldoPadua/node-schedule-jobs).
+A implementação na prática pode ser vista no projeto [node-schedule-jobs](https://github.com/ReinaldoPadua/node-schedule-jobs){:target="_blank"}.
 
 Até a próxima.
