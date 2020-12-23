@@ -13,7 +13,7 @@ permalink: '/tools'
 <script>
 // self executing function here
     (()=> {
-        $('#jsonText').on('change', ()=> {
+        $('#jsonText').on('input', ()=> {
             console.log("trocou o valor")
         });
         console.log("Carregou o js")
