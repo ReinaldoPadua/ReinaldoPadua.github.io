@@ -9,7 +9,7 @@ permalink: '/tools'
 
 
 <textarea id="jsonText" name="jsonText"
-          rows="4" cols="2" placeholder="Cole seu json aqui9">
+          rows="4" cols="2" placeholder="Cole seu json aqui">
 </textarea>
 
 <pre id="json-renderer"></pre>
@@ -19,14 +19,7 @@ permalink: '/tools'
     (()=> {
         
         $('#jsonText').on('input', ()=> {
-            var data = {
-            "firstName": "Jonh",
-            "lastName": "Smith",
-            "phones": [
-                "123-45-67",
-                "987-65-43"
-                ]
-            };
+            let data = JSON.parse($('#jsonText').val());
 
             $('#json-renderer').jsonViewer(data);    
         });
