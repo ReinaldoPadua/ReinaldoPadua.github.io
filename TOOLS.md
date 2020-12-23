@@ -5,10 +5,11 @@ permalink: '/tools'
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="{{ base.url | prepend: site.url }}/assets/libs/jsonlint.js"></script>
+<script src="{{ base.url | prepend: site.url }}/assets/libs/jsonviewer.js"  type="module"></script>
 
 
 <textarea id="jsonText" name="jsonText"
-          rows="4" cols="2" placeholder="Cole seu json aqui2">
+          rows="4" cols="2" placeholder="Cole seu json aqui3">
 </textarea>
 
 <script>
