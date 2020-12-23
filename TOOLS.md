@@ -14,8 +14,7 @@ permalink: '/tools'
 <script>
 // self executing function here
     (()=> {
-        import JsonViewer from './assets/libs/jsonviewer';
-
+        
         $('#jsonText').on('input', ()=> {
             console.log($('#jsonText').val())
             const jsonParsed = jsonlint.parse($('#jsonText').val());
