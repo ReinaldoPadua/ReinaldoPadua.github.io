@@ -6,8 +6,8 @@ permalink: '/tools'
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="{{ base.url | prepend: site.url }}/assets/libs/jsonlint.js"></script>
 <script src="{{ base.url | prepend: site.url }}/assets/libs/jsonViewer.js"></script>
-<link href="{{ base.url | prepend: site.url }}/assets/css/jsonViewer.css" rel="stylesheet" />
-<script src="{{ base.url | prepend: site.url }}/assets/libs/jsonViewer.js"></script>
+<link href="{{ base.url | prepend: site.url }}/assets/css/jsonviewer.css" rel="stylesheet" />
+<script src="{{ base.url | prepend: site.url }}/assets/libs/jsonviewer.js"></script>
 
 
 <textarea id="jsonText" name="jsonText"
