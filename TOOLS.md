@@ -13,8 +13,17 @@ permalink: '/tools'
 <script>
 // self executing function here
     (()=> {
+
+        import JsonViewer from './jsonViewer';
+
         $('#jsonText').on('input', ()=> {
-            console.log(jsonlint.parse('{"creative?": false}'));
+            const jsonParsed = jsonlint.parse('{"creative?": false}');
+            new JsonViewer({
+                container: document.body, 
+                data: jsonParsed, 
+                theme: 'light', 
+                expand: false
+            });
         });
        
     })();
