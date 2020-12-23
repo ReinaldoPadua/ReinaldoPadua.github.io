@@ -5,13 +5,13 @@ permalink: '/tools'
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="{{ base.url | prepend: site.url }}/assets/libs/jsonlint.js"></script>
-<script src="{{ base.url | prepend: site.url }}/assets/libs/jsonViewer.js"  type="module"></script>
+<script src="{{ base.url | prepend: site.url }}/assets/libs/jsonViewer.js"></script>
 <link href="{{ base.url | prepend: site.url }}/assets/css/jsonViewer.css" rel="stylesheet" />
 <script src="{{ base.url | prepend: site.url }}/assets/libs/jsonViewer.js"></script>
 
 
 <textarea id="jsonText" name="jsonText"
-          rows="4" cols="2" placeholder="Cole seu json aqui5">
+          rows="4" cols="2" placeholder="Cole seu json aqui6">
 </textarea>
 
 <div id="wrapper"></div>
