@@ -4,12 +4,12 @@ title: "Tools"
 permalink: '/tools'
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<link href="{{ base.url | prepend: site.url }}/assets/css/jsonviewer.css" rel="stylesheet" />
-<script src="{{ base.url | prepend: site.url }}/assets/libs/jsonviewer.js"></script>
+<link href="{{ base.url | prepend: site.url }}/assets/css/json-viewer.css" rel="stylesheet" />
+<script src="{{ base.url | prepend: site.url }}/assets/libs/json-viewer.js"></script>
 
 
 <textarea id="jsonText" name="jsonText"
-          rows="4" cols="2" placeholder="Cole seu json aqui8">
+          rows="4" cols="2" placeholder="Cole seu json aqui9">
 </textarea>
 
 <pre id="json-renderer"></pre>
