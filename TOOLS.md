@@ -8,3 +8,14 @@ permalink: '/tools'
 <textarea id="jsonText" name="jsonText"
           rows="4" cols="2" placeholder="Cole seu json aqui">
 </textarea>
+
+<script>
+// self executing function here
+    (()=> {
+        $('#jsonText').on('change', ()=> {
+            console.log("trocou o valor")
+        });
+        console.log("Carregou o js")
+    })();
+</script>
+
