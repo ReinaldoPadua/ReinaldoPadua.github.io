@@ -17,7 +17,9 @@ permalink: '/tools'
         import JsonViewer from './jsonViewer';
 
         $('#jsonText').on('input', ()=> {
-            const jsonParsed = jsonlint.parse('{"creative?": false}');
+            console.log($('#jsonText').val())
+            const jsonParsed = jsonlint.parse($('#jsonText').val());
+            console.log(jsonParsed);
             new JsonViewer({
                 container: document.body, 
                 data: jsonParsed, 
