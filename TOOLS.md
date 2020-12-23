@@ -14,7 +14,6 @@ permalink: '/tools'
 // self executing function here
     (()=> {
         $('#jsonText').on('input', ()=> {
-            const jsonlint = require("jsonlint");
             console.log(jsonlint.parse('{"creative?": false}'));
         });
        
