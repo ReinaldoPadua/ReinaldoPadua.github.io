@@ -8,7 +8,7 @@ permalink: '/tools'
 
 
 <textarea id="jsonText" name="jsonText"
-          rows="4" cols="2" placeholder="Cole seu json aqui">
+          rows="4" cols="2" placeholder="Cole seu json aqui2">
 </textarea>
 
 <script>
