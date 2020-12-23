@@ -11,7 +11,7 @@ permalink: '/tools'
 
 
 <textarea id="jsonText" name="jsonText"
-          rows="4" cols="2" placeholder="Cole seu json aqui6">
+          rows="4" cols="2" placeholder="Cole seu json aqui7">
 </textarea>
 
 <div id="wrapper"></div>
