@@ -16,12 +16,16 @@ permalink: '/tools'
 
 <script>
 // self executing function here
+    $('#json-renderer').hide();
     (()=> {
         
         $('#jsonText').on('input', ()=> {
             let data = JSON.parse($('#jsonText').val());
-
-            $('#json-renderer').jsonViewer(data);    
+            if(data.length>0){
+                $('#json-renderer').jsonViewer(data);
+                $('#json-renderer').show();
+            } else $('#json-renderer').hide();
+                
         });
 
         
