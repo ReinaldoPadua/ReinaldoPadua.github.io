@@ -24,6 +24,7 @@ permalink: '/tools'
             if(inputText!==undefined && inputText.length>0) {
                 $('#json-renderer').jsonViewer(JSON.parse(inputText)); 
                 $('#json-renderer').show();
+                return;
             }
             $('#json-renderer').jsonViewer(''); 
             $('#json-renderer').hide();
