@@ -1,12 +1,8 @@
 ---
-layout: default
+layout: tools
 title: "Tools"
 permalink: '/tools'
 ---
-<title>Online JSON Viewer</title>
-<meta name="description" content="JSON Viewer - Convert JSON Strings to a Friendly Readable Format">
-<meta name="keywords" content="json, json viewer, json validator">
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link href="{{ base.url | prepend: site.url }}/assets/css/json-viewer.css" rel="stylesheet" />
 <script src="{{ base.url | prepend: site.url }}/assets/libs/json-viewer.js"></script>
