@@ -20,18 +20,35 @@ permalink: '/tools'
     (()=> {
         
         $('#inputText').on('input', ()=> {
-            let inputText = $('#inputText').val();
-            if(inputText!==undefined && inputText.length>0) {
-                $('#json-renderer').jsonViewer(JSON.parse(inputText)); 
-                $('#json-renderer').show();
-                return;
-            }
-            $('#json-renderer').jsonViewer(''); 
-            $('#json-renderer').hide();
-            
+           
+            switch ($('#inputText').val().charAt(0)) {
+                case '{':
+                    showJsonViewer($('#inputText').val());
+                    break;
+                case '[':
+                    showJsonViewer($('#inputText').val());
+                    break;
+                case '<':
+                    showXMLViewer($('#inputText').val());
+                    break;
+                default:
+                    showYAMLViewer($('#inputText').val());
+            }                    
         });
 
         
     })();
+
+    const showJsonViewer = (inputText)=> {
+        
+        try{
+            $('#json-renderer').jsonViewer(JSON.parse(inputText)); 
+            $('#json-renderer').show();
+        } catch(e) {
+            $('#json-renderer').jsonViewer(''); 
+            $('#json-renderer').hide();
+        }
+    }
+
 </script>
 
