@@ -21,11 +21,8 @@ permalink: '/tools'
         
         $('#jsonText').on('input', ()=> {
             let data = JSON.parse($('#jsonText').val());
-            if(data.length>0){
-                $('#json-renderer').jsonViewer(data);
-                $('#json-renderer').show();
-            } else $('#json-renderer').hide();
-                
+            data.length>0 ? $('#json-renderer').show() : $('#json-renderer').hide()
+             $('#json-renderer').jsonViewer(data);   
         });
 
         
