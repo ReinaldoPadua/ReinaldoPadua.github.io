@@ -8,8 +8,8 @@ permalink: '/tools'
 <script src="{{ base.url | prepend: site.url }}/assets/libs/json-viewer.js"></script>
 
 
-<textarea id="jsonText" name="jsonText"
-          rows="4" cols="2" placeholder="Paste your json here!">
+<textarea id="inputText" name="inputText"
+          rows="4" cols="2" placeholder="Paste your JSON | XML | YAML here!">
 </textarea>
 
 <pre id="json-renderer"></pre>
@@ -20,9 +20,14 @@ permalink: '/tools'
     (()=> {
         
         $('#jsonText').on('input', ()=> {
-            let data = JSON.parse($('#jsonText').val());
-            data.length>0 ? $('#json-renderer').show() : $('#json-renderer').hide()
-             $('#json-renderer').jsonViewer(data);   
+            let inputText = $('#inputText').val();
+            if(inputText!==undefined && inputText.length>0) {
+                $('#json-renderer').jsonViewer(JSON.parse(inputText)); 
+                $('#json-renderer').show() :
+            }
+            $('#json-renderer').jsonViewer(''); 
+            $('#json-renderer').hide()
+            
         });
 
         
