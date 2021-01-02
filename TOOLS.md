@@ -59,7 +59,7 @@ permalink: '/tools'
         try{
             $("#xml-viewer").simpleXML({
 	            xmlString: inputText
-3           }); 
+           }); 
             $('#xml-viewer').show();
         } catch(e) {
             $('#xml-viewer').hide();
