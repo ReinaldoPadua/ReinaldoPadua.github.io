@@ -19,7 +19,7 @@ permalink: '/tools'
     $('#json-renderer').hide();
     (()=> {
         
-        $('#jsonText').on('input', ()=> {
+        $('#inputText').on('input', ()=> {
             let inputText = $('#inputText').val();
             if(inputText!==undefined && inputText.length>0) {
                 $('#json-renderer').jsonViewer(JSON.parse(inputText)); 
