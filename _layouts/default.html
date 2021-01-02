@@ -19,6 +19,15 @@
 <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
 <script defer src="{{ "/assets/katex/contrib/mathtex-script-type.min.js" | relative_url }}"></script>
 {% endif %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C9HVRXW0S3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C9HVRXW0S3');
+</script>
 
 <header>
   <h2><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h2>
