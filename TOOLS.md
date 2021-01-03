@@ -59,8 +59,8 @@ permalink: '/tools'
         try{
 
             const parser = new DOMParser();
-            const domXML = parser.parseFromString(inputText, "application/xml");
-            console.log(domXML)
+            const dom = parser.parseFromString(inputText, "application/xml");
+            console.log(dom.documentElement.nodeName)
             $("#xml-viewer").simpleXML({
 	            xmlString: domXML
            }); 
