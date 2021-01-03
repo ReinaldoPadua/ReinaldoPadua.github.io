@@ -57,8 +57,12 @@ permalink: '/tools'
      const showXMLViewer = (inputText)=> {
         
         try{
+
+            const parser = new DOMParser();
+            const domXML = parser.parseFromString(inputText, "application/xml");
+            console.log(domXML)
             $("#xml-viewer").simpleXML({
-	            xmlString: inputText
+	            xmlString: domXML
            }); 
             $('#xml-viewer').show();
         } catch(e) {
