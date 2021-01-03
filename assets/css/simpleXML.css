@@ -2,12 +2,13 @@
 {
     list-style: none;
     margin: 0px;
-    padding-left: 32px;
+    padding: 1em 2em;
 }
 
 .simpleXML
 {
     font-family: 'Courier New';
+    border-left: 1px dotted #ccc;
 }
 
 .simpleXML-comment
